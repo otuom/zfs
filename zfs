@@ -1,0 +1,1 @@
+zfs send -Rwv pool/tank@migrate | zfs recevie -dF hot4
